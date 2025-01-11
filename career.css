@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    background-color: #F9F9F9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+
+/* Header */
+.career-header {
+    text-align: center;
+    background-color: #00468b;
+    padding: 50px;
+    color: white;
+}
+
+.career-header h1 {
+    font-size: 2.5rem;
+}
+
+.career-header p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Working Environment Section */
+.working-environment {
+    text-align: center;
+    padding: 30px;
+    background-color: #F1F9F1;
+}
+
+.working-environment h2 {
+    font-size: 2rem;
+    color: #00468b;
+}
+
+.working-environment p {
+    max-width: 800px;
+    margin: 20px auto;
+    color: #555;
+}
+
+/* Positions Section */
+.positions {
+    padding: 40px;
+    text-align: center;
+}
+
+.positions h2 {
+    font-size: 2rem;
+    color: #00468B;
+}
+
+.position-card {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.position-card:hover {
+    transform: translateY(-5px);
+}
+
+.position-card h3 {
+    font-size: 1.5rem;
+    color: #00468b;
+}
+
+.position-card p {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Application Section */
+/* Application Section */
+.application-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #E7EFE7;
+    animation: fadeIn 1.2s ease;
+    border-top: 3px solid #00468B;
+}
+
+.application-section h2 {
+    color: #00468B;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.application-section p {
+    max-width: 600px;
+    margin: 20px auto;
+    color: #555;
+    font-size: 1.1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00468b;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(0, 70, 139, 0.42);
+}
+
+/* Footer */
+footer {
+    background-color: #00468B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}

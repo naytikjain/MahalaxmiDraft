@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    background-color: #F7F7F7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+
+/* Header */
+.sustainability-header {
+    text-align: center;
+    background-color: #6E8B3D;
+    padding: 50px;
+    color: white;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.sustainability-header h1 {
+    font-size: 2.5rem;
+}
+
+.sustainability-header p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Sections */
+.sustainability-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.info-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.info-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.info-card h2 {
+    font-size: 1.5rem;
+    color: #6E8B3D;
+}
+
+.info-card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 15px 0;
+}
+
+.info-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Production Process */
+.production-process {
+    background-color: #E7EFE7;
+    padding: 40px 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #6E8B3D;
+}
+
+.process-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.step {
+    width: 220px;
+    margin: 20px;
+    padding: 15px;
+    background: #FFFFFF;
+    border-left: 5px solid #6E8B3D;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.step:hover {
+    transform: translateY(-10px);
+    background-color: #f0f8f0;
+}
+
+.step h3 {
+    color: #00468B;
+    font-size: 1.3rem;
+}
+
+.step p {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #00468B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
